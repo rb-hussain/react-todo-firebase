@@ -1,9 +1,11 @@
 .taskManager > header{
   padding: 25px 20px;
-  background-color: hsl(210, 12%, 15%);
+  background-color: purple;
   color: white;
   font-size: 28px;
-  font-family: cursive;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
 .taskManager__container {
@@ -21,7 +23,7 @@
   font-size: 18px;
   padding: 10px 15px;
   margin: 0 auto;
-  background-color: hsl(210, 12%, 15%);
+  background-color: purple;
   cursor: pointer;
 }
 

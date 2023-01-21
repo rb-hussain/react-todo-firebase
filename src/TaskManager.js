@@ -23,11 +23,11 @@ function TaskManager() {
 
   return (
     <div className='taskManager'>
-      <header>Task Manager</header>
+      <header>Todo List</header>
       <div className='taskManager__container'>
         <button 
           onClick={() => setOpenAddModal(true)}>
-          Add task +
+          Add +
         </button>
         <div className='taskManager__tasks'>
 
